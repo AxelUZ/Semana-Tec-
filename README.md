@@ -1,0 +1,2 @@
+# Semana Tec 
+ Python VG
