@@ -1,3 +1,6 @@
+#Equipo 7
+# Irina Kaminsky Castillo
+
 from turtle import *
 
 from freegames import vector
@@ -36,7 +39,7 @@ import turtle
 #     pass  # TODO
 # 
 # 
-# def triangle(start, end):
+#def triangle(start, end):
 #     "Draw triangle from start to end."
 #     pass  # TODO
 # 
@@ -77,6 +80,7 @@ onkey(lambda: color('orange'), 'O') # Se agrega nuevo color
 # onkey(lambda: store('shape', rectangle), 'r')
 # onkey(lambda: store('shape', triangle), 't')
 # done()
+
 
 # Dibujar Circulo
 t = turtle.Turtle()  
