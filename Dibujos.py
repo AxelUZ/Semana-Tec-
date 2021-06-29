@@ -82,3 +82,25 @@ onkey(lambda: color('orange'), 'O') # Se agrega nuevo color
 t = turtle.Turtle()  
 r = 50
 t.circle(r)
+
+#Completar un rectangulo 
+t = turtle.Turtle()
+l = int(input("Se introduce medida del largo para el rectángulo: "))
+w = int(input("Se introduce medida del ancho para el rectángulo: "))
+ 
+# se dibuja primer lado
+t.forward(l) # Hacia adelante una unidad l
+t.left(90) # Gira 90 grados
+ 
+# se dibuja segundo lado
+t.forward(w) # Hacia adelante una unidad w
+t.left(90) # Gira 90 grados
+ 
+# se dibuja tercer lado
+t.forward(l) # Hacia adelante una unidad l
+t.left(90) # Gira 90 grados
+ 
+# se dibuja cuarto lado
+t.forward(w) # Hacia adelante una unidad w
+t.left(90) # Gira 90 grados
+
