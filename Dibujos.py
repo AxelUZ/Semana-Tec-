@@ -85,14 +85,19 @@ onkey(lambda: color('orange'), 'O') # Se agrega nuevo color
 
 
 # Dibujar Circulo
-t = turtle.Turtle()  
+t = turtle.Turtle()
+t.color("white")
+t.goto (-200,0)
+t.color("black")
 r = 50
 t.circle(r)
+
+
 
 #Completar un rectangulo 
 t = turtle.Turtle()
 t.color("white")
-t.goto (200,0)
+t.goto (0,0)
 t.color("red")
 
 l = 200
@@ -117,16 +122,18 @@ t.forward(l) # Hacia adelante una unidad l
 #Completar el triangulo
 
 board = turtle.Turtle()
+t.color("red")
+t.goto (200,0)
 t.color("white")
-t.goto (200,-100)
+t.goto (400,0)
 t.color("purple")
  
 t.forward(100) # se dibuja base
  
-t.left(120)
+t.left(-120)
 t.forward(100) # se definen angulos
  
-t.left(120)
+t.left(-120)
 t.forward(100)
  
 turtle.done()
