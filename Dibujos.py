@@ -91,37 +91,42 @@ t.circle(r)
 
 #Completar un rectangulo 
 t = turtle.Turtle()
-l = int(input("Se introduce medida del largo para el rectángulo: "))
-w = int(input("Se introduce medida del ancho para el rectángulo: "))
- 
+t.color("white")
+t.goto (200,0)
+t.color("red")
+
+l = 200
+w = 100
+
 # se dibuja primer lado
-t.forward(l) # Hacia adelante una unidad l
-t.left(90) # Gira 90 grados
+t.left(90)
+t.forward(w) # Hacia adelante una unidad w
  
 # se dibuja segundo lado
-t.forward(w) # Hacia adelante una unidad w
-t.left(90) # Gira 90 grados
+t.left (-90)
+t.forward(l) # Hacia adelante una unidad l
  
 # se dibuja tercer lado
-t.forward(l) # Hacia adelante una unidad l
-t.left(90) # Gira 90 grados
- 
-# se dibuja cuarto lado
+t.left(-90)
 t.forward(w) # Hacia adelante una unidad w
-t.left(90) # Gira 90 grados
+
+# se dibuja cuarto lado
+t.left(-90)
+t.forward(l) # Hacia adelante una unidad l
 
 #Completar el triangulo
 
 board = turtle.Turtle()
+t.color("white")
+t.goto (200,-100)
+t.color("purple")
  
-board.forward(100) # se dibuja base
+t.forward(100) # se dibuja base
  
-board.left(120)
-board.forward(100) # se definen angulos
+t.left(120)
+t.forward(100) # se definen angulos
  
-board.left(120)
-board.forward(100)
+t.left(120)
+t.forward(100)
  
 turtle.done()
-
-
