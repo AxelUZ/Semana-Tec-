@@ -104,3 +104,18 @@ t.left(90) # Gira 90 grados
 t.forward(w) # Hacia adelante una unidad w
 t.left(90) # Gira 90 grados
 
+#Completar el triangulo
+
+board = turtle.Turtle()
+ 
+board.forward(100) # se dibuja base
+ 
+board.left(120)
+board.forward(100) # se definen angulos
+ 
+board.left(120)
+board.forward(100)
+ 
+turtle.done()
+
+
