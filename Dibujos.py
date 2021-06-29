@@ -1,5 +1,6 @@
 #Equipo 7
 # Irina Kaminsky Castillo
+# Axel Gael Uzeta Gomez
 
 from turtle import *
 
