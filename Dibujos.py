@@ -1,6 +1,7 @@
 from turtle import *
 
 from freegames import vector
+import turtle
 
 
 # def line(start, end):
@@ -68,6 +69,8 @@ from freegames import vector
 # onkey(lambda: color('green'), 'G')
 # onkey(lambda: color('blue'), 'B')
 # onkey(lambda: color('red'), 'R')
+onkey(lambda: color('orange'), 'O') # Se agrega nuevo color
+
 # onkey(lambda: store('shape', line), 'l')
 # onkey(lambda: store('shape', square), 's')
 # onkey(lambda: store('shape', circle), 'c')
