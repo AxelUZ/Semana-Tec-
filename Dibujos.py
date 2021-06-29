@@ -77,3 +77,8 @@ onkey(lambda: color('orange'), 'O') # Se agrega nuevo color
 # onkey(lambda: store('shape', rectangle), 'r')
 # onkey(lambda: store('shape', triangle), 't')
 # done()
+
+# Dibujar Circulo
+t = turtle.Turtle()  
+r = 50
+t.circle(r)
